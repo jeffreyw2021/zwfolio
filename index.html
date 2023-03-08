@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZW Folio.</title>
+    <link rel="shortcut icon" href="./assets/crow.ico">
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- unicon font -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- customize stylesheet -->
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/shrinkNav.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body>
+
+    <container>
+
+        <a href="#home" id="scroll-to-top-btn" type='button'>
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+
+        <a class="shrink-nav" href="#home">
+            <div class="expand-icon">
+                <i id="out" class="fa-solid fa-crow"></i>
+                <i id="in" class="fa-solid fa-dove"></i>
+            </div>
+
+            <!-- <ul class="left-icon">
+                <li>
+                    <a href="#home">
+                        <i class="icon fa-solid fa-campground"></i>
+                        <p class="label">Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio">
+                        <i class="icon fa-solid fa-compact-disc"></i>
+                        <p class="label">Portfolio</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <i class="icon fa-solid fa-motorcycle"></i>
+                        <p class="label">About</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <i class="icon fa-solid fa-mug-saucer"></i>
+                        <p class="label">Connect</p>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="shrink-social-icon">
+                <li>
+                    <a href="https://www.linkedin.com/in/ziqianwang2021/">
+                        <i class="foot-icon fa-brands fa-linkedin"></i>
+                        <p class="foot-label">Linkedin</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ZiqianWPort">
+                        <i class="foot-icon fa-brands fa-github"></i>
+                        <p class="foot-label">Github</p>
+                    </a>
+                </li>
+            </ul> -->
+        </a>
+
+        <nav class="nav-bar">
+
+            <a href="#home" class="expand-icon">
+                <i id="out" class="fa-solid fa-crow"></i>
+                <i id="in" class="fa-solid fa-dove"></i>
+            </a>
+
+            <ul class="top-icon">
+                <li>
+                    <a href="#home">
+                        <i class="icon fa-solid fa-campground"></i>
+                        <p class="label">Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio">
+                        <i class="icon fa-solid fa-compact-disc"></i>
+                        <p class="label">Portfolio</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <i class="icon fa-solid fa-motorcycle"></i>
+                        <p class="label">About</p>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="#connect">
+                        <i class="icon fa-solid fa-mug-saucer"></i>
+                        <p class="label">Connect</p>
+                    </a>
+                </li> -->
+            </ul>
+
+            <ul class="social-icon">
+                <li>
+                    <a href="https://www.linkedin.com/in/ziqianwang2021/">
+                        <i class="foot-icon fa-brands fa-linkedin"></i>
+                        <p class="foot-label">LinkedIn</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ZiqianWPort">
+                        <i class="foot-icon fa-brands fa-github"></i>
+                        <p class="foot-label">Github</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div id="home">
+                <div class="wrapper">
+                    <div class="banner">
+                        <div class="banner-title">
+                            <span class="hello">Hello</span>
+                            <span class="Im">
+                                <h1>I'm Ziqian,</h1>
+                            </span>
+                            <h1><span class="multitext"></span></h1>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <div class="overview-text">
+                            <p class="school">BS Comp-Sci '25
+                                <a href="https://wustl.edu" class="highlight">
+                                    @Washington University in St.louis
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </a>
+                            </p>
+                        </div>
+
+                        <div class="btns">
+                            <a class="banner-btn" id="resume-btn" href="./assets/Jeffrey(Ziqian) Wang Resume.pdf">
+                                view resume</a>
+                            <!-- <a class="banner-btn" id="hire-btn" href="#"> >> have me on your team</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-placeholder"></div>
+                <!-- <div id="background-img"></div> -->
+            </div>
+        </main>
+
+        <div id="port-placeholder"></div>
+        <div id="below-content">
+            <div id="portfolio">
+                <div id="portfolio-content">
+                    <!-- bubble talk -->
+                    <a class="work" id="bubbleTalk" href="../public/works/bubble_talk/index.html">
+                        <div class="work-title">
+                            <h1>BUBBLE TALK</h1>
+                            <h2>A Mixed Reality Empowerment for the Hearing-Loss Community</h2>
+                        </div>
+                        <div class="img-slider">
+                            <div class="work-img" id="bubble-img">
+                                <img src="./assets/bubble-talk-glass.png" alt="bubbleTalkGlass">
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h1>2022</h1>
+                            <h2 class="work-type">UI/UX Design | VR Design</h2>
+                        </div>
+                    </a>
+                    <!-- ursaworks -->
+                    <a class="work" id="ursaworks" href="https://jeffreyw2021.github.io/ursaworks/">
+                        <div class="work-title">
+                            <h1>URSAWORKS</h1>
+                            <h2>The Offical Website Template for WashU's Robomaster Team</h2>
+                        </div>
+                        <div class="img-slider">
+                            <div class="work-img" id="ursa-img">
+                                <img src="./assets/ursaworks-mockup.png" alt="ursaLogo">
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h1>2023</h1>
+                            <h2 class="work-type">Static Web Development | Web UI Design</h2>
+                        </div>
+                    </a>
+                    <!-- mirror -->
+                    <a class="work" id="mirror">
+                        <div class="work-title">
+                            <h1>MIRROR</h1>
+                            <h2>An AI Interview Simulation IOS App Powered by GPT3.0</h2>
+                        </div>
+                        <div class="work-block">
+                            <div class="work-info">
+                                <h1>2023</h1>
+                                <h2 class="work-type">IOS App Development | App UI Design</h2>
+                            </div>
+                            <div class="work-img" id="ursa-img">
+                                <img src="./assets/mirror-mockup.png" alt="mirrorMock">
+                            </div>
+                        </div>
+                    </a>
+                    <!-- <a class="work" id="mirror">
+                    <div class="work-block">
+                        <div class="work-title">
+                            <h1>MIRROR</h1>
+                            <h2>An AI Interview Simulation IOS App Powered by GPT3.0</h2>
+                        </div>
+                        <div class="work-info">
+                            <h1>2023</h1>
+                            <h2 class="work-type">IOS App Development | App UI Design</h2>
+                        </div>
+                    </div>
+                    <div class="work-img" id="ursa-img">
+                        <img src="./assets/mirror-mockup.png" alt="mirrorMock">
+                    </div>
+                </a> -->
+                    <!-- memorylane -->
+                    <!-- <a class="work" id="memory">
+                    <div class="work-title">
+                        <h1>Memory Lane</h1>
+                        <h2>An Augmented Reality Empowered Support for Nursing of Dementia Patients</h2>
+                    </div>
+                    <div class="work-block">
+                        <div class="work-info">
+                            <h1>2023</h1>
+                            <h2 class="work-type">AR UX Design | IOS App Development</h2>
+                        </div>
+                        <div class="work-img" id="memory-img">
+                            <img src="./assets/ursaworks_logo_star-copy.png" alt="ursaLogo">
+                        </div>
+                    </div>
+                </a> -->
+                </div>
+            </div>
+
+            <div id="about">
+                <div id="breath-circle"></div>
+                <div id="about-glass">
+                    <div id="about-content">
+                        <div id="about-text">
+                            <h3>HOORAY, fellow innovators!</h3>
+                            <p>
+                                This is Ziqian. I'm a designer and developer whose passion lies in crafting
+                                elegant and intuitive user experiences through UI/UX design and 
+                                frontend development.
+                            </p>
+                            <p>
+                                I am most inspired by the words of the great Bruce Lee, who once said,
+                                "be water." This quote embodies the fluidity and adaptability necessary
+                                for excellence in UX design. Just as water conforms to the shape of
+                                its container, I am always striving to understand and empathize with
+                                the user's needs and adjust my design approach accordingly.
+                            </p>
+                            <p>
+                                As a creator, I find great joy in the experience of connecting with a
+                                broader audience. The collective network of individuals that we impact
+                                and influence through our products is like a flowing river that feeds
+                                into the vast ocean of human experience.
+                            </p>
+                            <p>
+                                With a mix of technical prowess and creativity, I am constantly pushing
+                                the boundaries of what is possible, seeking to develop something that
+                                is not only beautiful, but also has a profound impact on our daily lives.
+                            </p>
+                            <p>
+                                Let's create something that will change this world forever!
+                            </p>
+                        </div>
+                        <div id="about-img">
+                        </div>
+
+                        <div id="connect">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+    </container>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        //banner typing effect
+        var bannerTyping = new Typed('.multitext', {
+            strings: ['Developer', 'Designer', 'Artist'],
+            typeSpeed: 120,
+            backSpeed: 100,
+            backDelay: 2000,
+            loop: true,
+            // showCursor: false
+        });
+    </script>
+    <script>
+        const workElements = document.querySelectorAll('.work');
+        const portPlaceholder = document.querySelector('#port-placeholder');
+
+        workElements.forEach((element) => {
+            element.addEventListener('mouseover', () => {
+                portPlaceholder.style.backgroundColor = 'white';
+            });
+
+            element.addEventListener('mouseout', () => {
+                portPlaceholder.style.backgroundColor = 'transparent';
+            });
+        });
+    </script>
+
+    <!-- nav-bar scroll & opacity change -->
+    <script>
+        const homeSection = document.querySelector('#home');
+        const navBar = document.querySelector('.nav-bar');
+        const belowContentSection = document.querySelector('#below-content');
+        const wrapper = document.querySelector('.wrapper');
+        const scrollToTopBtn = document.querySelector('#scroll-to-top-btn');
+
+        let timeoutId;
+        let prevScrollY = window.scrollY;
+
+        function handleScroll() {
+
+            const belowContentSectionRect = belowContentSection.getBoundingClientRect();
+            if (belowContentSectionRect.top < window.innerHeight && belowContentSectionRect.bottom >= 0) {
+                // User is seeing below-content section
+                scrollToTopBtn.style.opacity = 1;
+                wrapper.style.borderRadius = "30px";
+                wrapper.style.marginLeft = "90px";
+                navBar.style.borderRadius = "30px";
+                navBar.style.background = "linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4))";
+                navBar.style.backdropFilter = 'blur(10px)';
+                navBar.style.webkitBackdropFilter = 'blur(10px)';
+
+                if (navBar.style.opacity == 0) {
+                    wrapper.style.marginLeft = '10px';
+                    wrapper.style.paddingLeft = '30px';
+                    wrapper.style.width = '530px';
+                } else {
+                    wrapper.style.paddingLeft = '30px';
+                    wrapper.style.width = '530px';
+                }
+
+                clearTimeout(timeoutId);
+                if (navBar.matches(':hover')) {
+                    navBar.style.opacity = 1;
+                    navBar.style.pointerEvents = 'auto';
+                } else {
+                    timeoutId = setTimeout(() => {
+                        navBar.style.opacity = 0;
+                        navBar.style.pointerEvents = 'none';
+                        wrapper.style.marginLeft = '10px';
+                    }, 1000);
+                }
+
+                const currScrollY = window.scrollY;
+                if (Math.abs(currScrollY - prevScrollY) > window.innerHeight / 100) {
+                    if (currScrollY < prevScrollY) {
+                        navBar.style.opacity = 1;
+                        navBar.style.pointerEvents = 'auto';
+                    } else {
+                        navBar.style.opacity = 0;
+                        navBar.style.pointerEvents = 'none';
+                        wrapper.style.paddingLeft = '30px';
+                        wrapper.style.marginLeft = "10px";
+                        wrapper.style.width = '530px';
+                    }
+                }
+                prevScrollY = currScrollY;
+
+            } else {
+                // User is not seeing below-content section
+                clearTimeout(timeoutId); // clear previous timeout
+                navBar.style.background = 'linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0))';
+                wrapper.style.borderRadius = "30px";
+                navBar.style.borderRadius = "30px 0px 0px 30px";
+                wrapper.style.marginLeft = "10px";
+                navBar.style.opacity = 1;
+                navBar.style.pointerEvents = 'auto';
+                wrapper.style.paddingLeft = '90px';
+                navBar.style.backdropFilter = 'blur(0px)';
+                navBar.style.webkitBackdropFilter = 'blur(0px)';
+                wrapper.style.width = '590px';
+                scrollToTopBtn.style.opacity = 0;
+            }
+        }
+
+        function handleNavBarHover() {
+            const belowContentSectionRect = belowContentSection.getBoundingClientRect();
+            if (belowContentSectionRect.top < window.innerHeight && belowContentSectionRect.bottom >= 0) {
+                // User is seeing below-content section
+                clearTimeout(timeoutId); // clear previous timeout
+                navBar.style.display = 'block';
+                navBar.style.opacity = 1;
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        navBar.addEventListener('mouseenter', handleNavBarHover);
+        navBar.addEventListener('mouseleave', handleScroll);
+    </script>
+
+    <!-- nav-bar style change when not in main -->
+    <script>
+        const belowContent = document.querySelector('#below-content');
+        const navBarLinks = document.querySelectorAll('.nav-bar a');
+        const icons = document.querySelectorAll('.icon');
+        const inOut = document.querySelectorAll('#in, #out');
+        const labels = document.querySelectorAll('.label');
+        const footIcons = document.querySelectorAll('.foot-icon');
+        const footLabels = document.querySelectorAll('.foot-label');
+
+        function handleScroll() {
+            const belowContentRect = belowContent.getBoundingClientRect();
+            if (belowContentRect.top < window.innerHeight * 0.1) {
+                // navBar.style.background = 'linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4))';
+                navBar.style.transition = 'background 0.5s ease, backdrop-filter 0.5s ease, transform 0.5s ease-out';
+                navBarLinks.forEach(link => {
+                    link.style.color = 'var(--gray-color)';
+                    link.style.transition = 'color 0.2s ease';
+                });
+                inOut.forEach(el => {
+                    el.style.opacity = '1';
+                    el.style.color = 'var(--gray-color)';
+                    el.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                inOut.forEach(el => {
+                    el.addEventListener('mouseenter', () => {
+                        el.style.color = 'var(--light-green)';
+                        el.style.opacity = '1';
+                    });
+                    el.addEventListener('mouseleave', () => {
+                        el.style.color = 'var(--gray-color)';
+                        el.style.opacity = '1';
+                    });
+                });
+                icons.forEach(icon => {
+                    icon.style.color = 'var(--gray-color)';
+                    icon.style.opacity = '1';
+                    icon.style.transition = 'color 0.2s ease, opacity 0.2s ease';
+                });
+                icons.forEach(icon => {
+                    icon.parentElement.addEventListener('mouseenter', () => {
+                        icon.style.color = 'var(--light-green)';
+                        icon.style.opacity = '1';
+                    });
+                    icon.parentElement.addEventListener('mouseleave', () => {
+                        icon.style.color = 'var(--gray-color)';
+                        icon.style.opacity = '1';
+                    });
+                });
+                labels.forEach(label => {
+                    label.style.opacity = '1';
+                    label.style.color = 'var(--gray-color)';
+                    label.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                labels.forEach(label => {
+                    label.parentElement.addEventListener('mouseenter', () => {
+                        label.style.color = 'var(--light-green)';
+                        label.style.opacity = '1';
+                    });
+                    label.parentElement.addEventListener('mouseleave', () => {
+                        label.style.color = 'var(--gray-color)';
+                        label.style.opacity = '1';
+                    });
+                });
+                footIcons.forEach(icon => {
+                    icon.style.opacity = '1';
+                    icon.style.color = 'var(--gray-color)';
+                    icon.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                footIcons.forEach(icon => {
+                    icon.parentElement.addEventListener('mouseenter', () => {
+                        icon.style.color = 'var(--light-green)';
+                        icon.style.opacity = '1';
+                    });
+                    icon.parentElement.addEventListener('mouseleave', () => {
+                        icon.style.color = 'var(--gray-color)';
+                        icon.style.opacity = '1';
+                    });
+                });
+                footLabels.forEach(label => {
+                    label.style.opacity = '1';
+                    label.style.color = 'var(--gray-color)';
+                    label.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                footLabels.forEach(label => {
+                    label.parentElement.addEventListener('mouseenter', () => {
+                        label.style.color = 'var(--light-green)';
+                        label.style.opacity = '1';
+                    });
+                    label.parentElement.addEventListener('mouseleave', () => {
+                        label.style.color = 'var(--gray-color)';
+                        label.style.opacity = '1';
+                    });
+                });
+            } else {
+                // navBar.style.background = "linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4))";
+                navBar.style.transition = 'background 1s ease, backdrop-filter 1s ease, transform 0.5s ease-out';
+                navBarLinks.forEach(link => {
+                    link.style.color = 'var(--body-green)';
+                    link.style.transition = 'color 0.2s ease';
+                });
+
+                inOut.forEach(el => {
+                    el.style.opacity = '0.8';
+                    el.style.color = 'var(--body-green)';
+                    el.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                inOut.forEach(el => {
+                    el.addEventListener('mouseenter', () => {
+                        el.style.opacity = '1';
+                        el.style.color = 'var(--body-green)';
+                    });
+                    el.addEventListener('mouseleave', () => {
+                        el.style.opacity = '0.8';
+                        el.style.color = 'var(--body-green)';
+                    });
+                });
+
+                icons.forEach(icon => {
+                    icon.style.color = 'var(--body-green)';
+                    icon.style.opacity = '0.8';
+                    icon.style.transition = 'color 0.2s ease, opacity 0.2s ease';
+                });
+                icons.forEach(icon => {
+                    icon.parentElement.addEventListener('mouseenter', () => {
+                        icon.style.opacity = '1';
+                        icon.style.color = 'var(--body-green)';
+                    });
+                    icon.parentElement.addEventListener('mouseleave', () => {
+                        icon.style.opacity = '0.8';
+                        icon.style.color = 'var(--body-green)';
+                    });
+                });
+                labels.forEach(label => {
+                    label.style.opacity = '0.8';
+                    label.style.color = 'var(--body-green)';
+                    label.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                labels.forEach(label => {
+                    label.parentElement.addEventListener('mouseenter', () => {
+                        label.style.opacity = '1';
+                        label.style.color = 'var(--body-green)';
+                    });
+                    label.parentElement.addEventListener('mouseleave', () => {
+                        label.style.opacity = '0.8';
+                        label.style.color = 'var(--body-green)';
+                    });
+                });
+
+                footIcons.forEach(icon => {
+                    icon.style.opacity = '0.8';
+                    icon.style.color = 'var(--body-green)';
+                    icon.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                footIcons.forEach(icon => {
+                    icon.parentElement.addEventListener('mouseenter', () => {
+                        icon.style.opacity = '1';
+                        icon.style.color = 'var(--body-green)';
+                    });
+                    icon.parentElement.addEventListener('mouseleave', () => {
+                        icon.style.opacity = '0.8';
+                        icon.style.color = 'var(--body-green)';
+                    });
+                });
+                footLabels.forEach(label => {
+                    label.style.opacity = '0.8';
+                    label.style.color = 'var(--body-green)';
+                    label.style.transition = 'opacity 0.2s ease, color 0.2s ease';
+                });
+                footLabels.forEach(label => {
+                    label.parentElement.addEventListener('mouseenter', () => {
+                        label.style.opacity = '1';
+                        label.style.color = 'var(--body-green)';
+                    });
+                    label.parentElement.addEventListener('mouseleave', () => {
+                        label.style.opacity = '0.8';
+                        label.style.color = 'var(--body-green)';
+                    });
+                });
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+    </script>
+
+    <!-- bubble talk -->
+    <script>
+        const bubbleTalk = document.getElementById("bubbleTalk");
+        const bubbleTalkTitle = bubbleTalk.querySelector(".work-title");
+        const bubbleTalkImg = bubbleTalk.querySelector(".work-img");
+        const bubbleTalkInfo = bubbleTalk.querySelector(".work-info");
+
+        const bubbleTalkOptions = {
+            root: null,
+            threshold: 0.5,
+        };
+
+        const bubbleTalkObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    bubbleTalkTitle.style.opacity = 1;
+                    bubbleTalkTitle.style.marginLeft = 0;
+                    bubbleTalkImg.style.opacity = 1;
+                    bubbleTalkImg.style.width = "100%";
+                    bubbleTalkInfo.style.opacity = 1;
+                    bubbleTalkInfo.style.marginLeft = 0;
+                } else {
+                    bubbleTalkTitle.style.opacity = 0;
+                    bubbleTalkTitle.style.marginLeft = "-25px";
+                    bubbleTalkImg.style.opacity = 0;
+                    bubbleTalkImg.style.width = "90%";
+                    bubbleTalkInfo.style.opacity = 0;
+                    bubbleTalkInfo.style.marginLeft = "-25px";
+                }
+            });
+        }, bubbleTalkOptions);
+
+        bubbleTalkObserver.observe(bubbleTalk);
+
+    </script>
+
+    <!-- ursaworks -->
+    <script>
+        const ursaworks = document.getElementById("ursaworks");
+        const ursaworksTitle = ursaworks.querySelector(".work-title");
+        const ursaworksImg = ursaworks.querySelector(".work-img");
+        const ursaworksInfo = ursaworks.querySelector(".work-info");
+
+        const ursaworksOptions = {
+            root: null,
+            threshold: 0.5,
+        };
+
+        const ursaworksObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    ursaworksTitle.style.opacity = 1;
+                    ursaworksTitle.style.marginLeft = 0;
+                    ursaworksImg.style.opacity = 1;
+                    ursaworksImg.style.marginRight = 0;
+                    ursaworksInfo.style.opacity = 1;
+                    ursaworksInfo.style.marginLeft = 0;
+                } else {
+                    ursaworksTitle.style.opacity = 0;
+                    ursaworksTitle.style.marginLeft = "-25px";
+                    ursaworksImg.style.opacity = 0;
+                    ursaworksImg.style.marginRight = "-25px";
+                    ursaworksInfo.style.opacity = 0;
+                    ursaworksInfo.style.marginLeft = "-25px";
+                }
+            });
+        }, ursaworksOptions);
+
+        ursaworksObserver.observe(ursaworks);
+
+    </script>
+
+    <!-- mirror -->
+    <script>
+        const mirror = document.getElementById("mirror");
+        const mirrorTitle = mirror.querySelector(".work-title");
+        const mirrorImg = mirror.querySelector(".work-img");
+        const mirrorInfo = mirror.querySelector(".work-info");
+
+        const mirrorOptions = {
+            root: null,
+            threshold: 0.5,
+        };
+        const mirrorObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    mirrorTitle.style.opacity = 1;
+                    mirrorTitle.style.marginLeft = 0;
+                    mirrorImg.style.opacity = 1;
+                    mirrorImg.style.marginRight = 0;
+                    mirrorInfo.style.opacity = 1;
+                    mirrorInfo.style.marginLeft = 0;
+                } else {
+                    mirrorTitle.style.opacity = 0;
+                    mirrorTitle.style.marginLeft = "-25px";
+                    mirrorImg.style.opacity = 0;
+                    mirrorImg.style.marginRight = "-25px";
+                    mirrorInfo.style.opacity = 0;
+                    mirrorInfo.style.marginLeft = "-25px";
+                }
+            });
+        }, mirrorOptions);
+        mirrorObserver.observe(mirror);
+    </script>
+
+    <!-- bouncing ball -->
+    <script>
+        const circle = document.getElementById("breath-circle");
+        const about = document.getElementById("about");
+        let x = (about.clientWidth - circle.clientWidth) / 2;
+        let y = (about.clientHeight - circle.clientHeight) / 2;
+        let dx = 5;
+        let dy = -5;
+
+        circle.style.left = x + "px";
+        circle.style.top = y + "px";
+
+        // Function to center circle with transition
+        const centerCircle = () => {
+            x = (about.clientWidth - circle.clientWidth) / 2;
+            y = (about.clientHeight - circle.clientHeight) / 2;
+            circle.style.transition = "left 1s ease, top 1s ease";
+            circle.style.left = x + "px";
+            circle.style.top = y + "px";
+        }
+
+        // Call function once to center circle on page load
+        centerCircle();
+
+        // Add event listener for window resize
+        window.addEventListener("resize", centerCircle);
+
+        setInterval(() => {
+            x += dx;
+            y += dy;
+
+            if (x + circle.clientWidth > about.clientWidth || x < 0) {
+                dx = -dx;
+                circle.style.transform = "scale(0.5, 1)";
+            } else {
+                circle.style.transform = "scale(1, 1)";
+            }
+
+            if (y + circle.clientHeight > about.clientHeight || y < 0) {
+                dy = -dy;
+                circle.style.transform = "scale(1, 0.5)";
+            } else {
+                circle.style.transform = "scale(1, 1)";
+            }
+
+            circle.style.left = x + "px";
+            circle.style.top = y + "px";
+        }, 50);
+
+
+    </script>
+</body>
+
+</html>

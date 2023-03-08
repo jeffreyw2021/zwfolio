@@ -1,0 +1,86 @@
+@import url(./global.css);
+
+
+.shrink-nav {
+    position: fixed;
+    width: 60px;
+    height: 60px; /* change height to 60px */
+    margin-left: 30px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: white;
+    text-decoration: none;
+    background: var(--light-green); /* change background to gray */
+    background-size:cover;
+    border-radius: 30px; /* change border-radius to 30px */
+    transition: all 0.5s ease;
+    z-index: 120;
+    display: none;
+    animation: colorChange 0.35s linear forwards;
+}
+
+/* .shrink-nav:hover {
+    width: calc(100vw - 60px);
+    background: var(--light-green);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+} */
+
+/* bird icon */
+.shrink-nav .expand-icon {
+    width: 60px;
+    margin: 0 0 10px 0;
+    color: white;
+    text-decoration: none;
+}
+.shrink-nav #out,
+.shrink-nav #in {
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+    animation: jitter 0.3s linear forwards;
+}
+.shrink-nav #in {
+    display: none;
+}
+
+.shrink-nav:hover .expand-icon{
+    margin: auto 20px;
+}
+.shrink-nav:hover #out {
+    display: none;
+}
+.shrink-nav:hover #in {
+    text-decoration: none;
+    display: block;
+}
+
+/* nav-icons */
+.shrink-nav .shrink-social-icon,
+.shrink-nav .left-icon {
+    display:none;
+}
+/* .shrink-nav:hover .shrink-social-icon,
+.shrink-nav:hover .left-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shrink-nav:hover .left-icon{
+    width: 20vw;
+} */
+
+/* ========== ANIMATION ========== */
+
+@keyframes colorChange {
+    0% {
+        background: white;
+    }
+    100% {
+        background: var(--light-green);
+    }
+}
+
+
+

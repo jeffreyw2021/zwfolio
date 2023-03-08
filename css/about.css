@@ -1,0 +1,95 @@
+@import url(./global.css);
+@import url(./navbar.css);
+@import url(./home.css);
+@import url(./portfolio.css);
+
+#about {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #e7e7e7;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+#breath-circle {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    max-width: 550px;
+    max-height: 550px;
+    border-radius: 50%;
+    background-color: white;
+    filter: blur(10px);
+    animation: breath 6s infinite;
+    overflow:hidden;
+}
+#about-glass{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e1e1e199, #e1e1e166);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    overflow:hidden;
+}
+#about-content{
+    height: 100%;
+    width: 100%;
+    padding: 8vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: all 0.5s ease-out;
+    overflow:hidden;
+}
+.nav-bar:hover ~ #below-content #about #about-glass #about-content{
+    padding-left: calc(10vw + 90px);
+}
+#about-text{
+    width: 60%;
+    min-width: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#about-content h3,
+#about-content p{
+    color: #6b6b6b;
+}
+#about-content h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#about-content p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 15px;
+    /* text-align: justify;
+    text-justify: inter-word; */
+}
+
+/* ========== ANIMATION ========== */
+@keyframes breath{
+    0%{
+        transform: scale(1);
+        filter: blur(10px);
+    }
+    50%{
+        transform: scale(1.2);
+        filter: blur(18px);
+    }
+    100%{
+        transform: scale(1);
+        filter: blur(10px);
+    }
+}
+

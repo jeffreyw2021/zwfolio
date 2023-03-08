@@ -1,0 +1,154 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Carter+One&family=Chela+One&family=Dela+Gothic+One&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Fredericka+the+Great&family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&family=M+PLUS+Code+Latin:wght@100;200;300;400;500;600;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Nabla&family=Oi&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rampart+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Climate+Crisis&family=Fjalla+One&family=Jockey+One&family=Limelight&family=Play&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Mono+One&family=Secular+One&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bungee+Spice&family=Cairo+Play:wght@200&family=Coda+Caption:wght@800&family=Coiny&family=Dela+Gothic+One&family=Emblema+One&family=Fascinate&family=Fascinate+Inline&family=Gugi&family=Kdam+Thmor+Pro&family=Nabla&family=Notable&family=Poller+One&family=Saira+Stencil+One&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poly:ital@0;1&display=swap');
+
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Chela One', cursive;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Encode Sans', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'M PLUS Code Latin', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Nabla', cursive;
+font-family: 'Oi', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Source Code Pro', monospace;
+
+font-family: 'Bungee Shade', cursive;
+font-family: 'Climate Crisis', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Jockey One', sans-serif;
+font-family: 'Limelight', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Rubik 80s Fade', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Ultra', serif;
+
+font-family: 'Bakbak One', cursive;
+font-family: 'Bungee Spice', cursive;
+font-family: 'Cairo Play', cursive;
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Coiny', cursive;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Emblema One', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Nabla', cursive;
+font-family: 'Notable', sans-serif;
+font-family: 'Poller One', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Vast Shadow', cursive;
+
+font-family: 'Audiowide', cursive;
+font-family: 'Monoton', cursive;
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poly', serif;
+*/
+
+:root {
+    --white-color: #f5f5f5;
+    --black-color: #1c1c1c;
+    --gray-color: #5b5b5b;
+    --light-green: #44836B;
+    --body-green: #436956;
+    --red-color:#ff3434;
+    --banner-color: #FA8134;
+    --yellow-color:#ffbe54;
+    --smoky-white:#f2f2f2;
+    /* --banner-color:#db95b8; */
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+    /* hide the scrollbar on Firefox */
+    scrollbar-width: none;
+    /* hide the scrollbar on Internet Explorer and Edge */
+    -ms-overflow-style: none;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-y:hidden;
+}
+
+body{
+    background-color: var(--smoky-white);
+    background-size:auto 100%;
+    background-position:right;
+}
+
+body::-webkit-scrollbar {
+    /* hide the scrollbar on Chrome, Safari, and Opera */
+    display: none;
+}
+/*==================== BELOW-CONTENT ====================*/
+
+
+/*==================== SCROLL TO TOP BTN ====================*/
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gray-color);
+    /* opacity:0.9; */
+    color:white;
+    font-size: 18px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1s;
+    overflow: hidden;
+    text-decoration: none;
+    opacity:0;
+}
+
+#scroll-to-top-btn:hover {
+    border: 3px dashed var(--gray-color);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
+    color:var(--gray-color);
+    /* animation-play-state:paused; */
+    /* filter:brightness(1.2); */
+    transition: all 0.1s ease;
+}
+
+/*==================== ANIMATION ====================*/
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
